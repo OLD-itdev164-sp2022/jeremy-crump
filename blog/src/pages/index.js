@@ -15,7 +15,7 @@ const IndexPage = ({ data }) => (
             <Link to ={edge.node.slug} key={edge.node.id}>{edge.node.title}</Link>
             <div>
               <GatsbyImage
-                image={edge.node.heroImage.gatsbyImageData} alt="test" />
+                image={edge.node.heroImage.gatsbyImageData} alt="test"/>
             </div>
             <div>
               {edge.node.body.childMarkdownRemark.excerpt}
