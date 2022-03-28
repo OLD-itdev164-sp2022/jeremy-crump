@@ -28,12 +28,12 @@ const Header = ({ siteTitle }) => (
   <Outer>
     <Inner>
       <Section flex>
-        <Section width={11 / 12}>
+        <Section width={11/12}>
           <H1>
             <StyledLink to="/">{siteTitle}</StyledLink>
           </H1>
         </Section>
-        <Section width={1 / 12}>Search</Section>
+        <Section width={1/12}>Search</Section>
       </Section>
     </Inner>
   </Outer>
