@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { BaseButton } from "./BaseButton"
 
 const StyledButton = styled(BaseButton)`
-  ${({ theme, variant }) => theme.variants.iconButton[variant || "primary"]}
+ // Styles here later
 `
 
 export const IconButton = styled(({ icon, ...rest }) => {
@@ -20,6 +20,5 @@ IconButton.defaultProps = {
 }
 
 IconButton.propTypes = {
-  icon: PropTypes.node.isRequired,
-  variant: PropTypes.string,
+  icon: PropTypes.node.isRequired
 }
